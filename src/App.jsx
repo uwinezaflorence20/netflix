@@ -1,7 +1,7 @@
 import Firstsection from './Components/Firstsection';
 import Navbar from './Components/Navbar';
 import Secondsection from './Components/Secondsection';
-import Tvshow from './Components/Tvshow';
+import Thirdsection from './Components/Thirdsection';
 // import { Route,Router,Routes } from 'react-router-dom'  
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
      <Navbar/> 
         <Firstsection/> 
         <Secondsection/>
+         <Thirdsection/> 
     </div>
   )
 }
