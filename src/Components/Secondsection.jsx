@@ -1,68 +1,23 @@
 import React from 'react'
+import { ImFire } from "react-icons/im";
+import { SlFire } from "react-icons/sl";
+import Tvshow from './Tvshow'
 
 const Secondsection = () => {
   return (
     <div className="bg-black">
-        <div>
-         <p className=" text-xl  font-bold  ml-32 text-white"> Trending</p>
-         </div>
-         
-         <div className='flex ml-24'>
-       <div className="  m-10 w-40 block " >
-      <img src="/movie.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
+      <div className="flex mr-32 items-center justify-center">
+        <span className="text-xl flex mr-2 gap-2 font-bold ml-32  text-white">
+          <SlFire className="text-yellow-300 text-2xlg mt-1" />
+          Trending
+        </span>
+        <hr className="border-t border-gray-400 flex-grow"/>
+        <a href="#" className="text-white ml-2">see more</a>
       </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/movie.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/k.jpg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/m.jpg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/spider.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/movie.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      
-      </div>
-      <div className='flex ml-24'>
-       <div className="  m-10 w-40 block " >
-      <img src="/movie.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/movie.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/k.jpg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/m.jpg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/spider.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      <div className="  m-10 w-40 block " >
-      <img src="/movie.jpeg"    alt='my image' className=""/> 
-      <h2 className=" text-center  text-white ">Red notice</h2>
-      </div>
-      
-      </div>
+      <Tvshow/>
     </div>
   )
 }
 
-export default Secondsection
+export default Secondsection;
+
