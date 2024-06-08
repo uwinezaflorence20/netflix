@@ -36,7 +36,7 @@ const Tvshow = () => {
             <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`} alt={item.title} className="w-full h-60 mb-4" />
             <div className="ml-4">
               <h3 className="text-lg text-white font-bold mb-2">{item.title}</h3>
-              <p className=" text-white mb-2">Release Date: {item.release_date}</p>
+              <p className=" text-white mb-2">Release Dateddddddd: {item.release_date}</p>
               <p className=" text-white">Vote Average: {item.vote_average}</p>
             </div>
           </div>
